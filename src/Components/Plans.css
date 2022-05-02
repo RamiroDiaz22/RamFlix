@@ -1,0 +1,10 @@
+.plans__contenedor {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plans__contenedor button {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,16 @@
+.paypal__contenedor {
+    width: 60%;
+    position: relative;
+    margin: 50px auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    border-radius: 15px;
+}
+
+.paypal__button {
+    width: 90%;
+    height: 100%;
+}

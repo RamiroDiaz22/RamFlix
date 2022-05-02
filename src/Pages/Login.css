@@ -1,0 +1,60 @@
+.login__contenedor {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__logo {
+    position: fixed;
+    top: 10px;
+    left: 30px;
+    width: 80px;
+    object-fit: contain;
+}
+
+.login__button {
+    position: fixed;
+    z-index: 15;
+    right: 30px;
+    top: 10px;
+}
+
+.login__info {
+    color: #fff;
+    z-index: 15;
+    text-align: center;
+}
+
+.login__info h4{
+    font-size: 30px;
+}
+
+.login__info h5{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.login__info h6{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.login__input {
+    width: 40%;
+    height: 24px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.login__button_inset {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.login__form {
+    display: flex;
+    justify-content: center;
+}
